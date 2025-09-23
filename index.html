@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tarea 1 - Etiquetas HTML5</title>
+    <base href="">
+    <link rel="stylesheet" href="styles.css" media="screen">
+    <meta name="author" content="Manuel Alejandro Soto Rojas">
+</head>
+<body>
+
+    <h1>Tarea 1 - Etiquetas HTML5</h1>
+    <h2>Estudiante: Manuel Alejandro Soto Rojas</h2>
+
+    
+    <figure>
+        <img src="avatar.png" alt="Avatar de Manuel Alejandro Soto Rojas" width="150">
+        <figcaption>Avatar de Manuel Alejandro Soto Rojas</figcaption>
+    </figure>
+
+    
+    <h2>Estructura de Sección</h2>
+    <h3>Encabezados</h3>
+    <h1>Ejemplo H1</h1>
+    <h2>Ejemplo H2</h2>
+    <h3>Ejemplo H3</h3>
+    <h4>Ejemplo H4</h4>
+    <h5>Ejemplo H5</h5>
+    <h6>Ejemplo H6</h6>
+
+    <hgroup>
+        <h1>Título Principal</h1>
+        <h2>Subtítulo</h2>
+    </hgroup>
+
+    <address>
+        Contacto: <a href="mailto:manuelsotor96@est.utn.ac.cr">manuelsotor96@est.utn.ac.cr</a><br>
+        Tel: +506 6193-0239
+    </address>
+
+    <div>
+        <p>Este es un bloque dentro de un &lt;div&gt;.</p>
+    </div>
+
+    <iframe src="https://www.youtube.com/watch?v=vS-kvbspaGY" width="300" height="200" title="Ejemplo de Iframe"></iframe>
+
+
+    <h2>Estructura de Grupo</h2>
+    <ul>
+        <li>Elemento de lista desordenada 1</li>
+        <li>Elemento de lista desordenada 2</li>
+    </ul>
+    <ol>
+        <li>Elemento de lista ordenada 1</li>
+        <li>Elemento de lista ordenada 2</li>
+    </ol>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Lenguaje de marcado para páginas web.</dd>
+    </dl>
+
+    <figure>
+        <img src="ejemplo.jpg" alt="Imagen ejemplo" width="200">
+        <figcaption>Ejemplo de figura con leyenda</figcaption>
+    </figure>
+
+    <details>
+        <summary>Más información</summary>
+        <p>Este texto aparece al abrir el details.</p>
+    </details>
+
+    
+    <h2>Texto</h2>
+    <p>Esto es un párrafo.</p>
+    Línea 1<br>Línea 2
+    <pre>Texto preformateado
+    con espacios y saltos
+    respetados.</pre>
+    <blockquote>Esta es una cita en bloque.</blockquote>
+    <q>Cita en línea</q>
+    <cite>Título de una obra</cite>
+    <abbr title="HyperText Markup Language">HTML</abbr>
+    <dfn>Definición</dfn>
+    <code>console.log("Hola Mundo");</code>
+    <kbd>Ctrl + C</kbd>
+    <b>Texto en negrita</b>
+    <strong>Texto importante</strong>
+    <i>Texto en cursiva</i>
+    <em>Texto enfatizado</em>
+    <mark>Texto resaltado</mark>
+    <small>Texto pequeño</small>
+    <del>Texto eliminado</del>
+    <ins>Texto insertado</ins>
+    <sub>H<sub>2</sub>O</sub>
+    <sup>10<sup>2</sup></sup>
+    <time datetime="2025-09-23">23 de septiembre 2025</time>
+    <data value="12345">Dato con valor</data>
+    <span style="color:blue;">Texto dentro de span</span>
+
+    <h2>Enlaces</h2>
+    <a href="https://www.utn.ac.cr">Ir a UTN</a>
+    <map name="mapa">
+        <area shape="rect" coords="0,0,50,50" href="https://www.google.com" alt="Google">
+    </map>
+    <img src="ejemplo.jpg" alt="Mapa de imagen" usemap="#mapa" width="200">
+
+    
+
+    <h2>Imágenes</h2>
+    <img src="ejemplo.jpg" alt="Imagen normal" width="200">
+    <picture>
+        <source srcset="ejemplo-grande.jpg" media="(min-width:800px)">
+        <source srcset="ejemplo-pequeño.jpg" media="(max-width:799px)">
+        <img src="ejemplo.jpg" alt="Imagen adaptable">
+    </picture>
+    <canvas id="canvas" width="100" height="100" style="border:1px solid black;"></canvas>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"/>
+    </svg>
+
+    
+
+    <h2>Multimedia</h2>
+    <audio controls>
+        <source src="ejemplo.m4a" type="audio/mpeg">
+        Tu navegador no soporta audio.
+    </audio>
+    <video width="320" height="240" controls>
+        <source src="ejemplo.mp4" type="video/mp4">
+        Tu navegador no soporta video.
+    </video>
+    <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español">
+
+    <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/watch?v=vS-kvbspaGY" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+    </iframe>
+
+
+</body>
+</html>
