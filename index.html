@@ -42,7 +42,7 @@
         <p>Este es un bloque dentro de un &lt;div&gt;.</p>
     </div>
 
-    <iframe src="https://www.youtube.com/watch?v=vS-kvbspaGY" width="300" height="200" title="Ejemplo de Iframe"></iframe>
+    <iframe src="https://www.youtube.com/embed/vS-kvbspaGY" width="300" height="200" title="Ejemplo de Iframe"></iframe>
 
 
     <h2>Estructura de Grupo</h2>
@@ -91,8 +91,8 @@
     <small>Texto pequeño</small>
     <del>Texto eliminado</del>
     <ins>Texto insertado</ins>
-    <sub>H<sub>2</sub>O</sub>
-    <sup>10<sup>2</sup></sup>
+    H<sub>2</sub>O
+    10<sup>2</sup>
     <time datetime="2025-09-23">23 de septiembre 2025</time>
     <data value="12345">Dato con valor</data>
     <span style="color:blue;">Texto dentro de span</span>
@@ -114,13 +114,13 @@
     <img src="ejemplo.jpg" alt="Imagen normal" width="200">
     <br>
     <picture>
-        <p>Imagen grande.</p>
+        <figcaption>Imagen grande</figcaption>
         <source srcset="ejemplo-grande.jpg" media="(min-width:800px)">
         <br>
-        <p>Imagen pequeña.</p>
+        <figcaption>Imagen pequeña</figcaption>
         <source srcset="ejemplo-pequeño.jpg" media="(max-width:799px)">
         <br>
-        <p>Imagen adaptable.</p>
+        <figcaption>Imagen adaptable</figcaption>
         <img src="ejemplo.jpg" alt="Imagen adaptable">
         <br>
     </picture>
@@ -138,13 +138,13 @@
     <h2>Multimedia</h2>
     <p>Audio.</p>
     <audio controls>
-        <source src="ejemplo.m4a" type="audio/mpeg">
+        <source src="ejemplo.m4a" type="audio/mp4">
         Tu navegador no soporta audio.
     </audio>
     <p>Video.</p>
     <video width="320" height="240" controls>
         <source src="ejemplo.mp4" type="video/mp4">
-        <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español">
+        <track src="subtitulos.vtt" kind="subtitles" srclang="en" label="English" default>
         Tu navegador no soporta video.
     </video>
     
@@ -153,7 +153,7 @@
     <iframe 
     width="560" 
     height="315" 
-    src="https://www.youtube.com/watch?v=vS-kvbspaGY" 
+    src="https://www.youtube.com/embed/vS-kvbspaGY" 
     title="YouTube video player" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
